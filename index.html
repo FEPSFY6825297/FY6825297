@@ -76,10 +76,8 @@ p.ex1 {
     </tr>
     </table>
                                                                                                     
-<p id="date&time"></p>
-<script>
-var time = new Date();
-var date = time.getFullYear()+'-'+(time.getMonth()+1)+'-'+time.getDate();
-var today= time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
-var dateTime = date+' '+time;
-</script>
+    <p id="date&time"></p>
+        <script>
+        const d = new Date();
+        document.getElementById("date&time").innerHTML= d;
+        </script>
