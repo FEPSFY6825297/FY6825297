@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 
 <html> 
+ <head>
+    <title>Change Button Colour</title>
+    <title>My Daily Activities</title>
+<script> type="text/javascript” src=https://www.gstatic.com/charts/loader.js></script>
+ 
+ </head>
+<body>
+    <button id="colorButton">Click me to change colour</button>
+    <script>
+ // Get a reference to the button element
+ var button = document.getElementById("colorButton");
+ // Function to change the button color
+ function changeColor() {
+ // Generate a random color (hexadecimal)
+ var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
 
-    <head>
+ // Set the button's background color to the random color
+ button.style.backgroundColor = randomColor;
+ }
+ // Add a click event listener to the button
+ button.addEventListener("click", changeColor);
+ </script>
+
+</body>
         <head>
         <img src ="WebBanner2023.png" alt="Banner" width="900" height="300">
             <h1><b>ENG0018 Computer Laboratory 2023/24</b></h1>
             <h2>Student URN:6825297</h2>
         <hr>
-        <h2 style=”font-family:calibri;”><b>Conference paper: Bridge Deck Repairs</b></h2>
+        <h2 style="font-family:calibri;"><b>Conference paper: Bridge Deck Repairs</b></h2>
         <hr>
         <! style for da tables>
             <style>
@@ -55,6 +77,8 @@ p.ex1 {
             </pre>
             </p>
             <h3 id="Analysis and discussion">Analysis and discussion</h3>
+   
+    
     <!table of contents>
     <table>
 
@@ -83,4 +107,28 @@ p.ex1 {
     document.getElementById("date&time").innerHTML = d;
     </script>
     </p>
-   
+
+    <!chart stuffz>
+    <div id="chart_div"></div>
+    <script type="text/javascript">
+        google.charts.load('current', {'packages': ['corechart']});
+        google.charts.setonLoadCallback(drawChart);
+    <!pie chart code>
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+            [‘Task’, ‘Hours per Day’],
+            [‘Work’, 8],
+            [‘Sleep’, 8],
+            [‘Eat’, 2],
+            [‘Study’, 4],
+            [‘Exercise’, 2]
+        ]);
+            
+        var options = {
+                title: ‘My Daily Activities’
+        };
+        var chart = new google.visualization.PieChart(document.getElementById(‘chart_div’));
+        chart.draw(data, options);
+    }
+    </script>
+
