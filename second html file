@@ -55,27 +55,29 @@
     <div class="container">
         <nav class="sidebar">
             <table>
+
                 <tr>
-                    <th><h3>Table of Contents</h3></th>
+                    <th><h3>Table of contents</h3></th>
                 </tr>
                 <tr>
-                    <td><a href="#abstract">Abstract</a></td>
+                    <td><a href="#Abstract">Abstract</td>
                 </tr>
                 <tr>
-                    <td><a href="#introduction">Introduction</a></td>
+                    <td><a href="#Introduction">Introduction</td>
+                </tr> 
+                <tr>
+                    <td><a href="#Transcribing Digital to Molecular">Transcribing Digital to Molecular</td>
                 </tr>
                 <tr>
-                    <td><a href="#transcribing">Transcribing Digital to Molecular</a></td>
+                    <td><a href="#DNA Storage">DNA Storage</td>
                 </tr>
                 <tr>
-                    <td><a href="#storage">DNA Storage</a></td>
-                </tr>
+                    <td><a href="#DNA Sequencing">DNA Sequencing</td>
+    
                 <tr>
-                    <td><a href="#sequencing">DNA Sequencing</a></td>
-                </tr>
-                <tr>
-                    <td><a href="#references">References</a></td>
-                </tr>
+                    <td><a href="#References">References</td>
+                </tr> 
+    
             </table>
         </nav>
 
