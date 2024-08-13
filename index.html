@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
     <style>
         .container {
-            display: flex; /* Enable flexbox for two-column layout */
+            display: flex; 
         }
 
         .sidebar {
-            width: 300px; /* Adjust width as needed */
+            width: 300px; 
             position: sticky;
             top: 0;
-            overflow-y: auto; /* Enable scrolling in the sidebar if content overflows */
+            overflow-y: auto; 
             height: 100vh;
             padding: 10px
         }
 
         .content {
-            flex: 1; /* Content takes up remaining space */
-            overflow-y: auto; /* Enable scrolling for the main content */
-            padding: 20px; /* Add padding for visual separation */
+            flex: 1; 
+            overflow-y: auto; 
+            padding: 20px; 
+            max-width: 100vw
         }
         
         .content img {
