@@ -11,7 +11,7 @@
             display: flex; /* Enable flexbox for two-column layout */
         }
 
-         .sidebar {
+        .sidebar {
             width: 300px; /* Adjust width as needed */
             position: sticky;
             top: 0;
@@ -38,7 +38,8 @@
         }
 
         tr:nth-child(even) {
-            background-color: #dddddd; 
+            background-color:   
+ #dddddd; 
         }
 
         p.ex1 {
@@ -46,7 +47,8 @@
         }
 
         .myslides {
-            display: none;
+            display: none;   
+
         }
     </style>
 </head>
@@ -55,29 +57,28 @@
     <div class="container">
         <nav class="sidebar">
             <table>
-
                 <tr>
-                    <th><h3>Table of contents</h3></th>
+                    <th><h3>Table of Contents</h3></th>
                 </tr>
                 <tr>
-                    <td><a href="#Abstract">Abstract</td>
+                    <td><a href="#abstract">Abstract</a></td>
                 </tr>
                 <tr>
-                    <td><a href="#Introduction">Introduction</td>
-                </tr> 
-                <tr>
-                    <td><a href="#Transcribing Digital to Molecular">Transcribing Digital to Molecular</td>
+                    <td><a href="#introduction">Introduction</a></td>
                 </tr>
                 <tr>
-                    <td><a href="#DNA Storage">DNA Storage</td>
+                    <td><a href="#transcribing">Transcribing   
+ Digital to Molecular</a></td>
                 </tr>
                 <tr>
-                    <td><a href="#DNA Sequencing">DNA Sequencing</td>
-    
+                    <td><a href="#storage">DNA Storage</a></td>
+                </tr>
                 <tr>
-                    <td><a href="#References">References</td>
-                </tr> 
-    
+                    <td><a href="#sequencing">DNA Sequencing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#references">References</a></td>
+                </tr>
             </table>
         </nav>
 
@@ -145,5 +146,4 @@
     </div>
 </body>
 
-</html>
-
+</html> 
