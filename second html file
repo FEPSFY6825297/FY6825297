@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNA: The Next Generation in Digital Data Storage</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <style>
+        .container {
+            display: flex; /* Enable flexbox for two-column layout */
+        }
+
+        .sidebar {
+            width: 300px; /* Adjust width as needed */
+            position: sticky;
+            top: 0;
+            overflow-y: auto; /* Enable scrolling in the sidebar if content overflows */
+        }
+
+        .content {
+            flex: 1; /* Content takes up remaining space */
+            overflow-y: auto; /* Enable scrolling for the main content */
+            padding: 20px; /* Add padding for visual separation */
+        }
+
+        /* Existing table styles can remain as they are */
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 30%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd; 
+        }
+
+        p.ex1 {
+            margin-left: 250px;
+        }
+
+        .myslides {
+            display: none;
+        }
+    </style>
+</head>
+
+<body style="background-color: #FFFFFF; margin-left: 50px;">
+    <div class="container">
+        <nav class="sidebar">
+            <table>
+                <tr>
+                    <th><h3>Table of Contents</h3></th>
+                </tr>
+                <tr>
+                    <td><a href="#abstract">Abstract</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#introduction">Introduction</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#transcribing">Transcribing Digital to Molecular</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#storage">DNA Storage</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#sequencing">DNA Sequencing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#references">References</a></td>
+                </tr>
+            </table>
+        </nav>
+
+        <main class="content">
+            <img src="hehe.jpg" alt="Banner" width="400" height="300">
+            <h1>ENG0018 Computer Laboratory 2023/24</h1>
+            <h2>Student URN: 6825297</h2>
+            <hr>
+            <h2>DNA, The Next Generation in the Evolution of Digital Data Storage</h2>
+            <hr>
+
+            <h3 id="abstract">Abstract</h3>
+            <hr>
+            <p class="ex1">
+                <pre>
+                </pre>
+            </p>
+            <hr>
+
+            <h3 id="introduction">Introduction</h3>
+            <hr>
+            <p>
+                <pre>
+                </pre>
+            </p>
+            <img src="Statista graph.png" alt="Graph showing the exponential growth of digital data" width="700" height="400">
+            <p>
+                <pre>
+                </pre>
+            </p>
+            <hr>
+
+            <h3 id="transcribing">Transcribing Digital to Molecular</h3>
+            <hr>
+            <p>
+                <pre>
+                </pre>
+            </p>
+            <img src="encoding image.jpg" alt="Table showing how text is converted from digital to DNA format" width="500" height="250">
+            <p>
+                <pre>
+                </pre>
+            </p>
+            <hr>
+
+            <h3 id="storage">DNA Storage</h3>
+            <hr>
+            <p>
+                <pre>
+                </pre>
+            </p>
+            <hr>
+
+            <h3 id="sequencing">DNA Sequencing</h3>
+            <hr>
+            <p>
+                <pre>
+                </pre>
+            </p>
+            <hr>
+
+            <h3 id="references">References</h3>
+            <hr>
+        </main>
+    </div>
+</body>
+
+</html>
+
