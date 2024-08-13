@@ -1,0 +1,16 @@
+.container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.sidebar {
+    width: 300px; /* Adjust width as needed */
+    position: sticky; /* Make the sidebar sticky */
+    top: 0; /* Stick it to the top of the viewport */
+    overflow-y: auto; /* Enable scrolling within the sidebar if content overflows */
+}
+
+.content {
+    flex: 1; /* Allow the content to take up remaining space */
+    overflow-y: auto; /* Enable scrolling for the main content */
+    padding: 20px; /* Add some padding for visual separation */
+}
